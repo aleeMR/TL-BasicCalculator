@@ -1,0 +1,107 @@
+:root {
+    --color-0: #0D202B;
+    --color-1: #2E4C6D;
+    --color-2: #7C99AC;
+    --color-3: #33567E;
+    --color-4: #487899;
+    --color-5: #396EB0;
+    --color-6: #F0E9D2;
+    --color-7: #0b2941;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', monospace;
+    background-color: var(--color-0);
+}
+
+.container {
+    display: flex;  
+    height: 100vh;  
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    background-color: var(--color-2);
+    border-radius: 10px;
+    box-shadow: 8px 8px 5px black;
+
+}
+
+.container-screen {
+    height: 110px;
+    margin-bottom: 5px;
+    padding: 18px 20px;
+    background-color: var(--color-1);
+    border-radius: 10px;
+}
+
+.screen{
+    width: 250px;
+    margin: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 10px;
+    text-align: right;
+    font-size: 25px;
+    color: var(--color-6);
+    border-radius: 8px;
+    background-color: var(--color-0);
+}
+
+table {
+    padding: 0 20px;
+    padding-top: 18px;
+    padding-bottom: 12px;
+}
+
+.operator, .number {
+    width: 55px;
+    height: 50px;
+    margin: 2px 3px;
+    font-size: 22px;
+    font-weight: 600;
+    border: 0px solid var(--color-3);
+    border-radius: 8px;
+}
+
+.edit-op {
+    color: var(--color-6);
+    background-color: var(--color-3);
+}
+
+.operator:hover {
+    cursor: pointer;
+    background-color: var(--color-5);
+}
+
+.edit-nu {
+    color: var(--color-7);
+    background-color: var(--color-4);
+}
+
+.number:hover {
+    cursor: pointer;
+    background-color: var(--color-5);
+}
+
+.long {
+    width: 120px;
+}
+
+.tall {
+    height: 110px;
+}
+
+.credits {
+    padding-bottom: 10px;
+    text-align: center;
+    color: var(--color-7);
+    font-size: 10px;
+    font-weight: bold;
+}

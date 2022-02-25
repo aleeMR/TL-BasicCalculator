@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Calculadora</title>
+</head>
+<body>
+  <div class="container">
+    <form>
+      <div class="container-screen">
+        <input class="screen" value="0" disabled>
+      </div>
+      <table>
+        <tr>
+          <td colspan="2"><input type="button" class="operator long edit-op" value="C"></td>
+          <td colspan="2"><input type="button" class="operator long edit-op" value="CE"></td>
+        </tr>
+        <tr>
+          <td><input type="button" class="number edit-nu" value="7"></td>
+          <td><input type="button" class="number edit-nu" value="8"></td>
+          <td><input type="button" class="number edit-nu" value="9"></td>
+          <td><input type="button" class="operator edit-op" value="-"></td>
+        </tr>
+        <tr>
+          <td><input type="button" class="number edit-nu" value="4"></td>
+          <td><input type="button" class="number edit-nu" value="5"></td>
+          <td><input type="button" class="number edit-nu" value="6"></td>
+          <td><input type="button" class="operator edit-op" value="+"></td>
+        </tr>
+        <tr>
+          <td><input type="button" class="number edit-nu" value="1"></td>
+          <td><input type="button" class="number edit-nu" value="2"></td>
+          <td><input type="button" class="number edit-nu" value="3"></td>
+          <td rowspan="2"><input type="button" class="operator edit-op tall" value="="></td>
+        </tr>
+        <tr>
+          <td colspan="2"><input type="button" class="number edit-nu long" value="0"></td>
+          <td><input type="button" class="operator edit-nu" value="." ></td>
+        </tr>
+      </table>
+      <div class="credits">
+        Learning and Programming | AMR
+      </div>
+    </form>
+  </div>
+  <script src="js/calculator.js"></script>
+</body>
+</html>
